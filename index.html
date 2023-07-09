@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto X-Men - Semana do Zero Ao Programador Contratato</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/logo.svg" alt="Logo X-Men">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">Selecione um personagem</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="ciclope" data-name="Ciclope" data-description="Scott Summers, personagem criado por Jack Kirby e Stan Lee em 1963, membro fundador do grupo X-Men e líder de campo da equipe. Nascido mutante, ele tem o poder de projetar pura energia de seus olhos, através de raios de energia concussiva controlados por seu visor feito de quartzo-rubi.">
+                    <img src="./src/imagens/card-ciclope.jpg" alt="Personagem Ciclope">
+                </li>
+                <li class="personagem" id="jean-grey" data-name="Jean Grey" data-description="Além de poderosa telepata, telecinética e psiônica, quando Jean torna-se avatar da Força Fênix, ganha controle sobre o fogo cósmico, manipulação temporal e a habilidade de ressureição. Ao lado de Ciclope, além de membros fundadores dos X-Men, os dois até hoje são um dos mais antigos e adorados casais da Marvel.">
+                    <img src="./src/imagens/card-jean-grey.jpg" alt="Personagem Jean Grey">
+                </li>
+                <li class="personagem" id="lince-negra" data-name="Lince Negra" data-description="O seu poder é mais conhecido pelo nome de intangibilidade. Neste estado, também chamado de “entrar em fase“, ela consegue atravessar objetos sólidos. Basicamente, suas partículas atômicas passam pelo espaço entre os átomos dos objetos pelos quais ela está atravessando.">
+                    <img src="./src/imagens/card-lince-negra.jpg" alt="Personagem Lince Negra">
+                </li>
+                <li class="personagem" id="tempestade" data-name="Tempestade" data-description="Tempestade é descendente de uma antiga linha de feiticeiras africanas. Todas têm cabelos brancos, olhos azuis e potencial para usar magia. A mãe dela, N'Dare, era a princesa de uma tribo no Quênia. Ela casou-se com o fotojornalista americano David Munroe e mudou-se com ele para Manhattan onde Ororo nasceu.">
+                    <img src="./src/imagens/card-tempestade.jpg" alt="Personagem Tempestade">
+                </li>
+                <li class="personagem" id="vampira" data-name="Vampira" data-description="Vampira é integrante (e as vezes líder) de algumas equipes dos X-Men e dos Vingadores. Sua primeira aparição foi em The Avengers Annual número 10 de 1981, e seu poder mutante é a habilidade de absorver a vitalidade, memórias, habilidades e poderes de outros seres vivos através do contato com a pele.">
+                    <img src="./src/imagens/card-vampira.jpg" alt="Personagem Vampira">
+                </li>
+                <li class="personagem" id="wolverine" data-name="Wolverine" data-description="Wolverine foi criado por Len Wein, John Romita e Herb Trimpe em 1974 e sua primeira aparição nas HQs foi como rival coadjuvante do Incrível Hulk. Nascido mutante, seus poderes incluem sentidos aguçados, garras retrateis e grande capacidade regenerativa (chamado fator de cura).">
+                    <img src="./src/imagens/card-wolverine.jpg" alt="Personagem Wolverine">
+                </li>
+                <li class="personagem" id="Noturno" data-name="Noturno" data-description="Noturno é um católico alemão e, enquanto isso não é enfatizado tanto nas suas aparições anteriores nos quadrinhos, Noturno representou mais tarde que é mais vocal sobre sua fé. Desde sua criação, Noturno teve uma presença regular na Marvel, relacionado com histórias em quadrinhos e jogos de vídeo.">
+                    <img src="./src/imagens/card-noturno.jpg" alt="Personagem Noturno">
+                </li>
+                <li class="personagem" id="magneto" data-name="Magneto" data-description="Magneto é um mestre manipulador do magnetismo, controlando e usando sua energia para derrotar seus inimigos. Com a série Marvel Legends, os fãs da Marvel infantis e adultos podem começar uma coleção lendária de personagens da Marvel baseados em quadrinhos e filmes.">
+                    <img src="./src/imagens/card-magneto.jpg" alt="Personagem Magneto">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-ciclope.png" alt="Personagem Selecionado">
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Scott Summers, personagem criado por Jack Kirby e Stan Lee em 1963, membro fundador do grupo X-Men e líder de campo da equipe. Nascido mutante, ele tem o poder de projetar pura energia de seus olhos, através de raios de energia concussiva controlados por seu visor feito de quartzo-rubi.</p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
